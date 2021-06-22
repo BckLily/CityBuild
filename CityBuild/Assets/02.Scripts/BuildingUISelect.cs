@@ -5,12 +5,33 @@ using UnityEngine.UI;
 
 public class BuildingUISelect : MonoBehaviour
 {
-    Button[] buttons;
+    // BuildingUI
+    private Transform buildUITr;
+    // BuildingListUI
+    private Transform buildingListTr;
+    // List(1~10)Canvas
+    private Transform[] ListCanvasTr;
+    // List(1~)Button(1~) this
+    private Transform buildButtonTr;
 
     // Start is called before the first frame update
     void Start()
     {
-        buttons = 
+
+        buildUITr = GameObject.Find("BuildingUI").GetComponent<Transform>();
+        buildingListTr = GameObject.Find("BuildingListUI").GetComponent<Transform>();
+
+        
+
+        
+
+
+
+
+
+
+
+
     }
 
     // Update is called once per frame

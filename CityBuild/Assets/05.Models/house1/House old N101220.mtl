@@ -1,0 +1,98 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 10.12.2020 17:12:02
+
+newmtl st_wood
+	Ns 70.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.9922 0.9804 0.8941
+	Ks 0.6300 0.6300 0.6300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\New folder 2\for houses\Wood_078.jpg
+	map_Kd D:\New folder 2\for houses\Wood_078.jpg
+
+newmtl wood
+	Ns 70.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8902 0.6588 0.2549
+	Ks 0.6300 0.6300 0.6300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\New folder 2\for houses\wood_114.jpg
+	map_Kd D:\New folder 2\for houses\wood_114.jpg
+
+newmtl Standard_8
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\New folder 2\for houses\Wood_sml.jpg
+	map_Kd D:\New folder 2\for houses\Wood_sml.jpg
+
+newmtl st_fist
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8078 0.8706 0.7686
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\New folder 2\wood_old.jpg
+	map_Kd D:\New folder 2\wood_old.jpg
+
+newmtl Standard_5
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7843 0.9686 0.9529
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\New folder 2\tiles_33.jpg
+	map_Kd D:\New folder 2\tiles_33.jpg
+
+newmtl clear_window
+	Ns 0.0000
+	Ni 1.5000
+	d 0.6000
+	Tr 0.6000
+	Tf 0.6000 0.6000 0.6000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5765 0.6235 0.7373
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.1441 0.1559 0.1843
+
+newmtl standart_metal
+	Ns 40.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.7373 0.6941 0.9098
+	Ks 0.6300 0.6300 0.6300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\New folder 2\iron_tex.jpg
+	map_Kd D:\New folder 2\iron_tex.jpg

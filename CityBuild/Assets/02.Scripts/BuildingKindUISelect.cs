@@ -14,10 +14,10 @@ public class BuildingKindUISelect : MonoBehaviour, IPointerClickHandler
     Transform buildingKindUITr;
 
     //// this Game Object Button Transform
-    //[SerializeField]
+    [SerializeField]
     //Transform thisButtonTr;
 
-    // Building Kind UI Button Number
+    //Building Kind UI Button Number
     public int buttonNumber;
     [SerializeField]
     Transform buildingListTr;
@@ -70,6 +70,11 @@ public class BuildingKindUISelect : MonoBehaviour, IPointerClickHandler
 
     // Update is called once per frame
     void Update()
+    {
+
+    }
+
+    public void OnClick()
     {
 
     }

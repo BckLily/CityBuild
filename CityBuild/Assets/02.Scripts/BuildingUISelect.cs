@@ -35,7 +35,7 @@ public class BuildingUISelect : MonoBehaviour, IPointerClickHandler
         // BuildingUI Transform Setting
         buildUITr = GameObject.Find("BuildingUI").GetComponent<Transform>();
         // BuildingLIstUI Transform Setting
-        buildingListTr = GameObject.Find("BuildingListUI").GetComponent<Transform>();
+        buildingListTr = buildUITr.GetChild(1);
         
         // ListCanvas Transform Setting 
         Transform[] _listCanvasTrArr = new Transform[buildingListTr.childCount];

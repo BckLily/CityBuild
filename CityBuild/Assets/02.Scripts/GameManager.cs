@@ -8,8 +8,12 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
+    public Scene scene;
+
     [SerializeField]
     public List<Object> houseList;
+
+    public GameObject building;
 
     private void Awake()
     {
@@ -18,6 +22,8 @@ public class GameManager : MonoBehaviour
         var build1Array = Resources.LoadAll("Models/House/Prefabs", typeof(GameObject));
 
         houseList.AddRange(build1Array);
+
+        DontDestroyOnLoad(this);
 
         /*
          * https://docs.unity3d.com/ScriptReference/Resources.LoadAll.html
@@ -28,8 +34,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-        SceneManager.LoadScene("UI", );
+        //SceneManager.LoadScene("UI");
+        //SceneManager.LoadScene("LevelScene", LoadSceneMode.Additive);
     }
 
     // Update is called once per frame
